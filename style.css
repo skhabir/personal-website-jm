@@ -50,3 +50,88 @@ p{
     text-transform: uppercase;
     font-weight: 700px;
 }
+.biography-area{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size:100%;
+}
+.biography-area img{
+    width: 75%;
+    padding-right: 50px;
+    float: right;
+}
+.latest-work{
+    background-image: url("latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position:center
+}
+.one-third-width{
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+}
+.one-third-width:last-child{
+    margin-right: 0;
+}
+.one-third-width img{
+    width: 100%;
+}
+.latest-work h2{
+    margin: 50px 0px;
+    text-align: center;
+}
+footer{
+    background-image: url("footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+   padding-bottom: 100px;
+}
+.footer-title{
+    text-align: center;
+    padding: 50px;
+}
+.footer-m-title{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+.footer-detail{
+    text-align: center;
+    
+    font-size: 13px;
+    font-weight: 700;
+}
+.footer-para{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.footer-contact{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    background-image: linear-gradient(60deg, rgb(228, 21, 100),rgb(238, 51, 98),rgb(245, 97, 129));
+    border-radius: 10px;
+}
+.contact-para{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    font-weight: 600;
+    padding-top: 25px;
+}
+.contact-email{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+   padding-bottom: 20px;
+}
